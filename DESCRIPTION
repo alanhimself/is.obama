@@ -10,3 +10,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Imports: 
     stringr
+URL: https://github.com/alanhimself/is.obama
+BugReports: https://github.com/alanhimself/is.obama/issues
