@@ -2,8 +2,8 @@ Package: is.obama
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Alan", "Lee", , "alanhimself@outlook.com", role = c("aut", "cre"))
+Description: This is a toy package for DSCI 310 and checks if a given year is 2008 or 2012 (when obama won).
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -12,3 +12,6 @@ Imports:
     stringr
 URL: https://github.com/alanhimself/is.obama, https://alanhimself.github.io/is.obama/
 BugReports: https://github.com/alanhimself/is.obama/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
