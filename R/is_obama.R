@@ -11,7 +11,11 @@
 #' is_obama(2012) # returns TRUE
 #' is_obama(2016) # returns FALSE
 #' is_obama("His first election was in 2008") # returns TRUE
-
+#'
+#' \dontrun{
+#' is_obama(mtcars)
+#' }
+#'
 is_obama <- function(num) {
   if (is.character(num)) {
     num <- stringr::str_extract(num, "\\d+")
